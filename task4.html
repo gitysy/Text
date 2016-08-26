@@ -5,12 +5,12 @@
     <title>µÇÂ¼</title>
     <style type="text/css">
         *{margin: 0;padding: 0;}
-        body{font-size: 62.5%;background: #eff0f4}
+        body{font-size: 62.5%;background: #eff0f4;}
         .head{
             width: 100%;
-            height: 3em;
+            height: 2em;
             background: #5fc0cd;
-            line-height: 3em;
+            line-height: 2em;
             font-size: 1.5em;
             color: white;
         }
@@ -33,12 +33,20 @@
             display: table;
         }
         .tu1{
+            width: 4em;
             display: table-cell;
             vertical-align: middle;
             padding-left: 2em;
         }
         img{
             height: 2.5em;
+        }
+        .line{
+            height: 2em;
+            width: 0.2em;
+            float: left;
+            background: #eaedee;
+            margin-top: 1.5em;
         }
         .input2{
             width: 100%;
@@ -48,20 +56,45 @@
             display: table;
         }
         .tu2{
+            width: 4em;
             display: table-cell;
             vertical-align: middle;
             padding-left: 2em;
         }
+        .shoujihao{
+            height: 2em;
+            margin-top: 1.5em;
+            float: left;
+            margin-left: 2em;
+        }
+        .mima{
+            height: 2em;
+            margin-top: 1.5em;
+            float: left;
+            margin-left: 2em;
+        }
+        input{
+            border: none;
+            color: #e1e5e7;
+        }
         .login {
-            width: 100%;
-            height: 4em;
-            line-height: 4em;
-            background: #5fc0cd;
             margin-top: 2em;
+        }
+        button{
+            width: 100%;
+            height: 3em;
+            background: #5fc0cd;
+            border: none;
             color: white;
-            text-align: center;
-            font-size: 2em;
             letter-spacing: 1em;
+            font-size: 1.5em;
+        }
+        .foot{
+            float: right;
+            margin-top: 1em;
+            margin-right:1em;
+            color: #5fc0cd;
+            font-size: 1.5em;
         }
     </style>
 </head>
@@ -75,12 +108,29 @@
         <div class="tu1">
             <img src="task4_1.png"/>
         </div>
+        <div class="line"></div>
+        <div class="shoujihao">
+            <form>
+                <input type="tel" name="ÊÖ»úºÅ" placeholder="ÇëÊäÈëÊÖ»úºÅ">
+            </form>
+        </div>
     </div>
     <div class="input2">
         <div class="tu2">
             <img src="task4_2.png"/>
         </div>
+        <div class="line"></div>
+        <div class="mima">
+            <form>
+                <input type="password" name="ÃÜÂë" placeholder="ÇëÊäÈëÃÜÂë">
+            </form>
+        </div>
     </div>
-    <div class="login">µÇÂ¼</div>
+    <div class="login">
+        <button type="button">µÇÂ¼</button>
+    </div>
+    <div class="foot">
+        Íü¼ÇÃÜÂë£¿
+    </div>
 </body>
 </html>
