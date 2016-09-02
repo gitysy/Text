@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 640px;
+}
+.header{
+    text-align: center;
+    background-color: #29bde0;
+    padding: 2.5% 0;
+}
+.h1{
+    float: left;
+    padding-left: 3.59%;
+}
+.title{
+    font-size: 1.875rem;
+    color: white;
+}
+.h2{
+    float: right;
+    padding-right: 3.59%;
+}
+.vote{
+    background-color: #b9e9f5;
+    overflow: hidden;
+    padding: 2.34% 2.5% 2.34% 7.34%;
+}
+.v1{
+    font-size: 1.5rem;
+    line-height: 200%;
+}
+.v2{
+    float: right;
+}
+.explain{
+    font-size: 1.3rem;
+    color: white;
+    background-color: #29bde0;
+    padding-left: 10%;
+}
+.e1{
+    border: 0.9rem solid;
+    border-color: #b9e9f5 transparent transparent transparent;
+    width: 0;
+}
+.main{
+    height: 9rem;
+    background-color: #29bde0;
+    padding: 6% 2%;
+}
+.m1{
+    float: left;
+    width: 8rem;
+    height: 8rem;
+    border: 5px solid white;
+    margin-left: 8%;
+    background-color: #f5c97b;
+    text-align: center;
+}
+.name{
+    font-size: 1.4rem;
+    line-height: 6rem;
+}
+.number{
+    font-size: 1rem;
+    padding-bottom: 0;
+    line-height: 2rem;
+    background-color: #83b09a;
+    color: white;
+}
+.space{
+    height: 10rem;
+    background-color: #29bde0;
+}
+.footer{
+    width: 640px;
+    position: fixed;
+    bottom: 0;
+    background-color: #29bde0;
+}
+.decide{
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    margin: 5% 10%;
+    padding: 2%;
+    background-color: #fbb435;
+}
