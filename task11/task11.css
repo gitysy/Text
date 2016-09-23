@@ -1,0 +1,254 @@
+body{
+    background-color: #fafafa;
+}
+.telephone{
+    font-size: 1.2rem;
+    color: #42b683;
+    line-height: 40px;
+}
+.header-ico{
+    float: right;
+}
+.header-ico img{
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    margin: 7px 8px;
+}
+.nav-logo {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+.navbar-default{
+    background-color: #29b078;
+    font-size: 16px;
+    margin-bottom: -20px;
+}
+#nav-a a{
+    display: inline-block;
+    padding: 40px 40px;
+    color: white;
+    border-bottom: 4px solid #29b078;
+}
+#nav-a a:link,#nav-a a:visited{
+    color: white;
+}
+#nav-a a:hover,#nav-a a:active,#nav-a a:focus{
+    color: white;
+    border-bottom: 4px solid white;
+}
+.subnav{
+    padding: 30px 15px;
+    border-bottom: 1px solid #d0d6d9;
+}
+.direction{
+    border-bottom: 1px solid #edf1f2;
+}
+.direction ul{
+    -webkit-padding-start: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.direction li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 2% 2%;
+}
+.direction .direction-title{
+    color: #999999;
+    margin: 0 0;
+}
+.direction a{
+    text-decoration: none;
+    padding: 2px 4px;
+}
+.direction a:link,.direction a:visited{
+    color: black;
+}
+.direction a:hover,.direction a:active,.direction a:focus{
+    color: white;
+    background-color: #29b078;
+}
+.dropdown-menu{
+    width: 100%;
+}
+.dropdown-menu>li{
+    width: 100%;
+    margin: 0 0;
+}
+.dropdown-menu>li>a {
+    text-align: center;
+}
+.dropdown button{
+    width: 100%;
+    background-color: white;
+    margin-top: 5%;
+}
+.tag{
+    padding: 30px 15px;
+    border-bottom: 1px solid #d0d6d9;
+    font-weight: 600;
+}
+dl{
+    width: 100%;
+    height: 445px;
+    border: 1px solid #e2e2e2;
+    margin-top: 45px;
+    float: left;
+    position: relative;
+}
+.first{
+    border-bottom: 1px solid #e2e2e2;
+    height: 175px;
+}
+.first img{
+    float: left;
+    margin: 20px 10px 15px 11px;
+}
+.first_title{
+    font-weight: 600;
+    padding-top: 30px;
+}
+.first_content{
+    font-size: 0.8rem;
+    padding:  16px 10px;
+    line-height: 20px;
+    text-align: left;
+    word-break: break-all;
+}
+.two{
+    float: left;
+    width: 50%;
+    height:40px;
+    font-size: 12px;
+    color: #999999;
+    line-height: 40px;
+    border-bottom: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+}
+.two-title{
+    float: left;
+    width: 40%;
+    text-align: center;
+}
+.two-content{
+    float: left;
+    width: 60%;
+}
+.two img{
+    vertical-align: middle;
+}
+.three{
+    width: 100%;
+    clear: both;
+}
+.three-left{
+    width: 40%;
+    height:105px;
+    color: #999999;
+    line-height: 105px;
+    border-bottom: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+    text-align: center;
+    float: left;
+}
+.three-right{
+    float: left;
+    width: 60%;
+    height: 35px;
+    line-height: 35px;
+    font-size: 0.7rem;
+    border-bottom: 1px solid #e2e2e2;
+}
+.year{
+    width: 50%;
+    float: left;
+    padding-left: 24px;
+}
+.money{
+    float: left;
+    width: 50%;
+    padding-right: 12px;
+    text-align: right;
+}
+.four{
+    clear: both;
+    height: 40px;
+    line-height: 40px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-bottom: 1px solid #e2e2e2;
+    padding-left: 10px;
+}
+.five{
+    font-size: 10px;
+    color: #a9a9a9;
+    text-align: center;
+    padding-top: 10px;
+}
+.ios{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 445px;
+    color: #fff;
+    font-size: 16px;
+    padding: 10% 5%;
+    opacity: 0;
+}
+.ios-title{
+    line-height: 100px;
+    text-align: center;
+}
+.ios p{
+    text-indent: 2rem;
+}
+.ios:hover{
+    opacity: 1;
+}
+.footer{
+    background-color: #26a26f;
+    color: white;
+}
+.footer-left,.footer-middle{
+    padding: 30px 0;
+}
+.footer p{
+    margin-bottom: 70px;
+    font-size: 18px;
+}
+.footer a{
+    font-size: 14px;
+    text-decoration: none;
+    padding-bottom: 0.5rem;
+}
+.footer a:link,.footer a:visited{
+    color: white;
+}
+.footer a:hover,.footer a:active,.footer a:focus{
+    border-bottom: 1px solid white;
+}
+.footer-middle p{
+    margin-bottom: 30px;
+}
+.footer-middle a{
+    margin-right: 20px;
+}
+.footer-right p{
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.footer-right{
+    text-align: right;
+    margin-top: 30px;
+}
+.footer_bottom {
+    color: white;
+    font-size: 0.8rem;
+    border-top: 1px solid #32c086;
+    background-color: #26a26f;
+    line-height: 2rem;
+}

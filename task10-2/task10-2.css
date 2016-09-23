@@ -1,0 +1,149 @@
+body{
+    background-color: #fafafa;
+}
+.telephone{
+    font-size: 1.2rem;
+    color: #42b683;
+    line-height: 40px;
+}
+.header-ico{
+    float: right;
+}
+.header-ico img{
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    margin: 7px 8px;
+}
+.nav-logo {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+.navbar-default{
+    background-color: #29b078;
+    font-size: 16px;
+    margin-bottom: -20px;
+}
+#nav-a a{
+    display: inline-block;
+    padding: 40px 40px;
+    color: white;
+    border-bottom: 4px solid #29b078;
+}
+#nav-a a:link,#nav-a a:visited{
+    color: white;
+}
+#nav-a a:hover,#nav-a a:active,#nav-a a:focus{
+    color: white;
+    border-bottom: 4px solid white;
+}
+.ad img{
+    width: 100%
+}
+.subnav{
+    padding: 30px 0;
+}
+.main-nav,.mainbody-content{
+    border: 1px solid #ededed;
+    box-shadow: 1px 1px 1px 1px #f6f6f6;
+    border-radius: 6px;
+    background-color: white;
+    padding-left: 0;
+    padding-right: 0;
+}
+.main-nav p{
+    line-height: 60px;
+    font-weight: 700;
+    border-bottom: 1px solid #e6e6e6;
+}
+.main-nav ul{
+    -webkit-padding-start: 0;
+    padding-left: 40%;
+}
+.main-nav li{
+    list-style: url("ico1.png");
+    margin: 30px 0;
+}
+.main-nav li:hover{
+    list-style: url("ico2.png");
+}
+.main-nav a{
+    text-decoration: none;
+}
+.main-nav a:link,.main-nav a:visited{
+    color: #29b078;
+}
+.main-nav a:hover,.main-nav a:active,.main-nav a:focus{
+    color: #ff650e;
+}
+.mainbody-content{
+    color: #999999;
+    font-size: 14px;
+    line-height: 28px;
+}
+.mainbody-top{
+    border-bottom: 1px solid #ededed;
+    padding: 3% 6%;
+}
+.mainbody-top img{
+    float: left;
+    margin-right: 3%;
+}
+.mainbody p{
+    text-indent: 28px;
+    margin: 3% 6%;
+}
+.dropdown-menu{
+    width: 100%;
+}
+.dropdown-menu>li>a {
+    text-align: center;
+}
+.dropdown button{
+    width: 100%;
+    background-color: white;
+}
+.footer{
+    background-color: #26a26f;
+    color: white;
+}
+.footer-left,.footer-middle{
+    padding: 30px 0;
+}
+.footer p{
+    margin-bottom: 70px;
+    font-size: 18px;
+}
+.footer a{
+    font-size: 14px;
+    text-decoration: none;
+    padding-bottom: 0.5rem;
+}
+.footer a:link,.footer a:visited{
+    color: white;
+}
+.footer a:hover,.footer a:active,.footer a:focus{
+    border-bottom: 1px solid white;
+}
+.footer-middle p{
+    margin-bottom: 30px;
+}
+.footer-middle a{
+    margin-right: 20px;
+}
+.footer-right p{
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.footer-right{
+    text-align: right;
+    margin-top: 30px;
+}
+.footer_bottom{
+    color: white;
+    font-size: 0.8rem;
+    border-top: 1px solid #32c086;
+    background-color: #26a26f;
+    line-height: 2rem;
+}

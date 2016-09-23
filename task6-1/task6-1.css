@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    background-color: #f0f0f0;
+}
+.header{
+    background-color: #29bde0;
+    padding: 3.12% 0 3.12% 3.28%;
+}
+.h1{
+    width: 5.31%;
+}
+.main{
+    overflow: hidden;
+}
+.nav{
+    border: 1px solid #c9c9c9;
+    margin: 4.06% 5.46%;
+    padding: 6.25% 2.45%;
+    font-size: 4.68vw;
+    text-align: center;
+    background-color: white;
+}
+.nav2{
+    width: 3.75%;
+    float: right;
+}
+.title{
+    border: 1px solid #d0d0d0;
+    margin: 4.06% 5.46% 0;
+    border-bottom: 2px solid #fdd793;
+    background-color: white;
+}
+.title-1{
+    font-size: 4.68vw;
+    color: #fbb435;
+    margin: 4.73% 0;
+    text-align: center;
+}
+.game1{
+    font-size: 3.125vw;
+    margin: 0 5.46%;
+    padding: 4.68% 9.47%;
+    border-right: 1px solid #d0d0d0;
+    border-left: 1px solid #d0d0d0;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    color: #787878;
+}
+.name1{
+    background-color: #69d1e9;
+    padding: 9.29% 0;
+    font-size: 4.68vw;
+    margin-bottom: 4.68%;
+    color: white;
+}
+.point{
+    position: absolute;
+    right: -3%;
+    top: 27%;
+    border: 4.375vw solid;
+    border-color: transparent transparent transparent #afbac0;
+    width: 0;
+}

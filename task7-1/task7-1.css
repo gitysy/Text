@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Microsoft YaHei", Arial, Helvetica, sans-serif;
+    max-width: 1920px;
+}
+body{
+    width: 100%;
+    margin: 0 auto;
+}
+.ad{
+    height: 600px;
+    overflow: hidden;
+}
+.main{
+    width: 95%;
+    margin: 0 auto;
+    background-color: #fafafa;
+}
+.main1,.main2,.main3,.main4,.main5{
+    width: 12rem;
+    text-align: center;
+    padding: 2rem 3rem;
+    float: left;
+    background-color: white;
+    margin: 2rem 1rem;
+}
+.main4{
+    border-left: 1px dashed #dedede;
+}
+.m1,.m2{
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.m3,.m5{
+    font-size: 0.9rem;
+    color: #999999;
+}
+.m4{
+    color: #26a26f;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.m4_left{
+    margin-right: 1rem;
+}
+.title{
+    text-align: center;
+    clear: both;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-weight: 700;
+}
+.main1_left,.main1_middle,.main1_right{
+    float: left;
+    font-size: 1rem;
+    color: #29b078;
+    font-weight: 600;
+}
+
+.mainbody1{
+    width: auto;
+    float: left;
+    margin-bottom: 2rem;
+}
+.main1_left{
+    border-radius: 50%;
+    box-shadow:  0 1px 4px #999;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+}
+.main1_middle{
+    width: 8rem;
+    margin: 1rem 2rem;
+    font-size: 0.8rem;
+    color: #999999;
+}
+.main1_right{
+    height: 4rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+.main_logo{
+    width: 15%;
+    padding: 2rem 1rem;
+    float: left;
+    text-align: center;
+    margin-right: 2rem;
+}
+.friendlink{
+    width: 90%;
+    margin: 0 auto;
+    color: #999999
+}
+.friendlink ul{
+    float: left;
+    margin-left: 2.5rem;
+    width: 5rem;
+}
+.friendlink li{
+    margin-bottom: 1rem;
+}
+.friendlink a{
+    text-decoration: none;
+    position: relative;
+}
+.friendlink a:link,.friendlink a:visited{
+    color: #999999;
+}
+.friendlink a:before {
+     content: "";
+     position: absolute;
+     width: 135%;
+     height: 1px;
+     bottom: -7px;
+     left: -20px;
+     background-color: #26a26f;
+     visibility: hidden;
+ }
+.friendlink a:hover:before {
+    visibility: visible;
+}
